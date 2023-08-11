@@ -13,7 +13,7 @@
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand fs-3 fw-bold" href="#">Arif Hidayat</a>
+          <a class="navbar-brand fs-3 fw-bold" href="#">Arif.</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -102,6 +102,46 @@
           <div id="work-3" class="work-img-item">
             <img src="images/work-3.png" alt="work 3">
           </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact container">
+      <div class="row d-flex align-items-center gap-5">
+        <div class="col">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit voluptates deleniti repellendus aliquam nulla sequi nobis vel non numquam eos consequuntur eum corrupti ex, ducimus assumenda quod eligendi ullam! Exercitationem ratione esse laboriosam tempora eaque dignissimos vitae aut aspernatur harum a dolor consectetur saepe delectus soluta, tempore facilis, mollitia voluptatum.</p>
+          <div class="row mt-5">
+            <div class="col_g d-flex justify-items-center gap-2">
+              <img src="images/facebook.svg" alt="facebook icon" height="27px">
+              <p>Arif Hidayat</p>
+            </div>
+            <div class="col_g d-flex justify-items-center gap-2">
+              <img src="images/twitter.svg" alt="twitter icon" height="27px">
+              <p>@arifh027</p>
+            </div>
+            <div class="col_g d-flex justify-items-center gap-2">
+              <img src="images/instagram.svg" alt="instagram icon" height="27px">
+              <p>@arifh027</p>
+            </div> 
+          </div>
+        </div>
+        <div class="col">
+          <form class="contact-form" onsubmit="onFormSubmit(event)">
+            <div class="mb-3">
+              <label for="inp_email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="inp_email" placeholder="example@email.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="inp_subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="inp_subject" placeholder="Your Subject" required> 
+            </div>
+            <div class="mb-3">
+              <label for="inp_message" class="form-label">Message</label>
+              <input type="text" class="form-control" id="inp_message" placeholder="Your Message" required>
+            </div>
+            <div class="d-flex justify-content-center mt-5">
+              <button type="submit" class="btn button">Submit</button>
+            </div>
+          </form>
         </div>
       </div>
     </section>
