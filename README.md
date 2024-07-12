@@ -1,5 +1,7 @@
-#Contoh Portofolio page yang pertama kali dibuat
-== Komposisinya sebagai berikut:
-*HTML5
-*CSS
-*Javascript
+#Contoh Portofolio page yang pertama kali dibuat<br><br>
+
+=================================<br>
+Komposisinya sebagai berikut:<br><br>
+*HTML5<br>
+*CSS<br>
+*Javascript<br>
