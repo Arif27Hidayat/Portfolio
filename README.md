@@ -2,5 +2,5 @@
 =================================<br>
 Komposisinya sebagai berikut:<br><br>
 * HTML5<br>
-* CSS<br>
+* CSS3<br>
 * Javascript<br>
